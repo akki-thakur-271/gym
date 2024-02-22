@@ -4,22 +4,22 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.container{
-    min-width: 1240px;
-    width: 100%;
+ .container{
+ max-width: 1200px;
+    width: 1920px;
     margin: auto;
-}
+} 
 h1{
  font-size: 80px;
 }
 h2{
-    font-size: 20px;
+    font-size: 60px;
 }
-p{
-    font-size: 16px;
+ p{
+    /* font-size: 16px; */
     margin-top: 20px;
-    line-height: 25px;
-}
+    line-height: 25px;  
+} 
  button{
     padding: 20px;
     background-color: #D35324;
@@ -76,33 +76,74 @@ nav a{
      border: 3.3px solid#D35324; ;
   
  } 
+ 
+ 
 /* =====home-end==== */
+/* =====about==== */
 #about{
    background-color: #F5F5F5;
 
   width: 100%;
   
  .main-about{
-     gap: 20px;
-    display: flex; 
+      gap: 60px;
+    display: flex;
+    background-color: #F5F5F5; 
+  
+    
  }
+ 
 .about-box2{
     margin-top: 30px;
     padding-left: 30px;
   width: 50%;  
 }
-.about-box1{
+.image{
+    background-color:#D35324;
+    width: 50%;
+    display: flex;
+    
+    align-items: center;
+
+    
+}
+img{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.text{
+    h2{
+        margin-right: 80px;
+        text-align: center;
+        margin-top: 30%;
+        color: white;
+        padding-bottom: 40%;
+       
+    }
+}
+/* .about-box1{
     display: flex;
     align-items: center;
     justify-content: space-around;
       width: 50%;
 background-color: #FB5B21;
 
-}
+} */
 
 .about-item{
+    
+   
     p{
         width: 400px;
+        margin-top: 30px;
+    }
+    h3{
+        margin-top: 30px;
+        color: #D35324;
     }
 }
+}
+/* =====about-end==== */
+#CLASSES{
+padding: 70px 0;
 }
