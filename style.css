@@ -302,12 +302,12 @@ background-color: #FB5B21;
 }
 /* ==============schedule-end============= */
 #traners{
-    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.0) 100%),
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.100) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.100) 100%),
     url('./image/class-schedule.png') no-repeat;
      
     background-size: cover;
     width: 100%;
-     height: 50vh;
+     /* height: 50vh; */
 .time-main{
     margin-top: 40px;
     background-color: orangered;
@@ -317,7 +317,48 @@ background-color: #FB5B21;
     padding: 50px;
     font-size: 30px;
 }
-.my-nab{
+.my-nab li{
+    display: inline-block;
+    float: inherit;
+    margin: 0px;
+
+}
+.my-nab li a{
+    background-color: #DD4813;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 21px;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+}
+.odd-item{
+    margin-top: 30px;
+}
+.odd{
+    background-color: #DD4813;
+    border-radius: 35px;
     display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+     font-size: 20px;
+    padding: 20px;
+    justify-content: space-between;
+   
+.odd li{
+    text-align: center;
+}
+.child-1 a{
+ text-decoration: none;
+ background-color: #fff;
+ padding: 10px;
+ border-radius: 15px;
+ color: black;
+}
+
 }
 }
