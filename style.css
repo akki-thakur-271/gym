@@ -302,7 +302,7 @@ background-color: #FB5B21;
 }
 /* ==============schedule-end============= */
 #traners{
-    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.100) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.100) 100%),
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 100%),
     url('./image/class-schedule.png') no-repeat;
      
     background-size: cover;
@@ -315,6 +315,8 @@ background-color: #FB5B21;
 }
 .text h2{
     padding: 50px;
+    margin-left: -44px;
+    color: white;
     font-size: 30px;
 }
 .my-nab li{
@@ -330,6 +332,7 @@ background-color: #FB5B21;
     color: white;
     font-size: 20px;
     margin: 21px;
+    text-align: center;
     border: none;
     border-radius: 30px;
     padding: 12px 20px;
@@ -342,11 +345,12 @@ background-color: #FB5B21;
     border-radius: 35px;
     display: flex;
     margin-top: 10px;
+    text-align: center;
     text-decoration: none;
     list-style: none;
     color: white;
      font-size: 20px;
-    padding: 20px;
+    padding: 28px;
     justify-content: space-between;
    
 .odd li{
@@ -361,4 +365,64 @@ background-color: #FB5B21;
 }
 
 }
+}
+#news{
+   
+    height: 60vh;
+.text h2{
+    margin-left: -44px;
+    padding: 50px;
+  font-size: 30px;  
+}
+.main{
+    display: flex;
+    gap: 30px;
+    margin-top: 9%;
+    align-items: center;
+   
+}
+.image img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.details h5{
+   font-size: 20px;
+}
+p{
+    line-height: 30px;
+  
+}   
+    
+}
+#pages{
+    
+    background-image: url(./trainer-bag.jpg);
+    background-size: cover;
+
+.text h2{
+    margin-left: -44px;
+    padding: 50px;
+  font-size: 30px;     
+}
+.main-box{
+    display: flex;
+    gap: 40px;
+}
+.box1 img{
+border-radius: 15px;
+}
+.main-text{
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+.main-text h5{
+    padding: 20px;
+ font-size: 20px;
+ text-align: center;
+ 
+}
+
 }
