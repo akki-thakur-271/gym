@@ -400,6 +400,7 @@ p{
     
     background-image: url(./trainer-bag.jpg);
     background-size: cover;
+    height: 80vh;
 
 .text h2{
     margin-left: -44px;
@@ -412,17 +413,73 @@ p{
 }
 .box1 img{
 border-radius: 15px;
+
 }
 .main-text{
-    border-radius: 15px;
-    margin-top: 20px;
-    background-color: yellow;
+    position: absolute;
+    width: 290px;
+    display: block;
+    align-items: center;
+    margin-left: 40px;
+    background-color: #FB5B21;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+     
+   
 }
-.main-text h5{
-    padding: 20px;
- font-size: 20px;
- text-align: center;
- 
+.main-text h3{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center; 
+   
+    
+}
+span{
+     font-size: 20px;
+     text-align: center;
+     margin-left: 31%;
+    
 }
 
+}
+#table{
+    background-color: #222222;
+
+.text h2{
+    margin-left: -44px;
+    padding: 50px;
+  font-size: 30px;
+}
+.main-table{
+   
+    display: flex;
+    justify-content: space-between;
+     
+    
+}
+.table-box1{
+     background-color: white;
+     padding: 40px;
+     width: 30%;
+  
+}
+span{
+    font-size: 20px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 40px;
+     
+}
+.hhh{
+    color: red;
+    font-size: 20px;
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+}
 }
