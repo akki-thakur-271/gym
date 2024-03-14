@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 .container {
@@ -511,7 +512,7 @@ background-color: #FB5B21;
 
 }
 
-#table {
+#table-2 {
     background-color: #222222;
     padding: 80px;
 
@@ -705,8 +706,7 @@ background-color: #FB5B21;
      button:hover{
        background-color:orangered;
        transition: all 1s;
-       position: ;
-
+      
      }
    
     }
@@ -740,20 +740,53 @@ background-color: #FB5B21;
       }
       .online-store-content h5{
         font-size: 20px;
-        padding-bottom: 15px;
+         padding: 10px;
         margin-top: 20px;
 
       }
       .online-store-content span{
         font-size: 18px;
         color: #fb5b21;
+       
       }
       .all-product{
         display: flex;
         gap: 60px;
       }
       .online-store-content:hover{
-        color: white;
+         
+           color: white;
           background-color: orangered;
+          transition: all 2s;
       }
+}
+#table{
+    padding: 80px 0;
+    background-color: black;
+    background-image: url(counter-back.jpg);
+    background-size: cover;
+  
+.table-row{
+    display: flex;
+    text-align: center;
+    padding: 80px ;
+    justify-content: space-between;
+}
+
+.counter h2{
+  font-size: 60px;
+  color: white;
+}
+P{
+    font-size: 20px;
+    color: orangered;
+}
+.latest{
+  margin: 15px 20px; 
+  position: relative; 
+}
+.date{
+    background-image: url(date-bag.png);
+    position: absolute;
+}
 }
