@@ -746,6 +746,7 @@ background-color: #FB5B21;
       }
       .online-store-content span{
         font-size: 18px;
+        margin-left: 10px;
         color: #fb5b21;
        
       }
@@ -788,5 +789,83 @@ P{
 .date{
     background-image: url(date-bag.png);
     position: absolute;
+}
+}
+/* =========table-end======== */
+#latest-news{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+    width: 100%;
+.latest-box-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .text h2{
+    margin-bottom: 35px;
+    font-size: 30px;
+ }
+ .content h3:hover{
+    color: orangered;
+ }
+.latest{
+    position: relative;
+
+}
+image{
+  
+   
+    overflow: hidden;
+}
+.date{
+    background-image: url(date-bag.png) ;
+    position: absolute;
+    left: 20px;
+    padding: 10px 15px;
+    top: -15px;
+    color: white;
+     font-weight: 500px;
+    text-align: center;
+     
+}
+.content h3{
+    margin-top: 30px;
+  font-size: 25px;
+}
+.content p{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 30px;
+}
+}
+/* =======latest-news-end======= */
+#logo{
+    background-color: #fff;
+    padding: 80px 0;
+.logo-icon{
+  padding: 20px 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+   
+li img{
+    width: 200px;
+   
+}
+}
+}
+#footer{
+    padding: 80px 0;
+    background-color: #121212;
+
+.about-company h3{
+    color: white;
+        font-size: 22px;
+        margin-bottom: 20px;
+}
+p{
+    color: white;
+    width: 50%;
 }
 }
