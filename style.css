@@ -859,13 +859,45 @@ li img{
     padding: 80px 0;
     background-color: #121212;
 
+.row{
+   
+    
+    display: flex;
+    
+    align-items: center;
+}
+
 .about-company h3{
     color: white;
+  
         font-size: 22px;
         margin-bottom: 20px;
 }
 p{
-    color: white;
+    color: #b3b3b3;
     width: 50%;
+    line-height: 30px;
+    
 }
+.Twitter-Feed h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.Flickr-Photos h3{
+    color: white;
+   margin-bottom: 30px;
+   text-align: center;
+}
+ 
+
+.Corporate-Office h3{
+    color: white;
+}
+h6{
+    color: #b3b3b3;
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
 }
